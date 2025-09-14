@@ -1,76 +1,67 @@
-/* All common css start  */
-*{
-    margin: 0%;
-    padding: 0%;
+/* All common CSS start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul,li{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0%;
-    padding: 0%;
-    line-height: 0.8;
-}
-body{
-  background: #1e1e1e;
-}
-/* All common css end  */
 
-#basicPart{
-    background: #221c94;
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All common CSS end */
+/* Lightbox part start */
+#lightBox {
+  background-image: linear-gradient(
+    to right top,
+    #c3e000,
+    #0bca65,
+    #00a698,
+    #007da1,
+    #00527e
+  );
+}
+
+.light {
+  padding: 100px 0px;
+}
+
+#venoBox {
+  background: #221c94;
 background: linear-gradient(90deg,rgba(34, 28, 148, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-   height: 600px;
-   padding: 100px;
-}
-button{
-    padding: 15px 25px;
-   background: #2A7B9B;
-background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-border: none;
-}
-.box{
-    margin-top: 20px;
-    height: 200px;
-    width: 200px;
-    border-radius: 10px;
-    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-}
-#countdownpart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 200px;
-         background: #221c94;
-background: linear-gradient(90deg,rgba(34, 28, 148, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
-.countdown-container {
-    display: flex;
-    gap: 30px;
-    text-align: center;
-    color: #fff;
-    font-family: Arial, sans-serif;
+.veno {
+  padding: 100px 0;
 }
 
-.countdown-item {
-    padding: 15px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
+.videoBox {
+  padding-top: 5%;
+  position: relative;
 }
 
-.countdown-item span {
-    display: block;
-    font-size: 3em;
-    font-weight: bold;
-    line-height: 1;
-}
-
-.countdown-item p {
-    font-size: 1em;
-    font-weight: normal;
-    text-transform: uppercase;
-    margin-top: 5px;
+.yourww {
+  font-size: 100px;
+  color: red;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

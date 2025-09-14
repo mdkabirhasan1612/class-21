@@ -3,43 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
-  <section id="basicPart">
-    <button id="hide">HIDE</button>
-    <button id="show">SHOW</button>
-    <button id="hideShow">HIDE/SHOW</button>
-    <button id="fadeOut">FADEOUT</button>
-    <button id="fadeIn">FADEIN</button>
-    <button id="slideUpDown">SLIDEUP/DOWN</button>
-    <div class="box"></div>
-  </section>
-  <section id="countdownpart">
-    <div class="countdown-container">
-        <div class="countdown-item">
-            <span id="days"></span>
-            <p>Days</p>
+  </head>
+  <body>
+    <section id="lightBox">
+      <div class="container">
+        <div class="light">
+          <div class="row">
+            <div class="col-lg-4">
+              <a href="images/3.jpg" data-lightbox="roadtrip"
+                ><img src="images/3.jpg" alt="3.jpg" class="img-fluid w-100"
+              /></a>
+            </div>
+            <div class="col-lg-4">
+              <a href="images/1.jpg" data-lightbox="roadtrip"
+                ><img src="images/1.jpg" alt="1.jpg" class="img-fluid w-100"
+              /></a>
+            </div>
+            <div class="col-lg-4">
+              <a href="images/4.jpg" data-lightbox="roadtrip"
+                ><img src="images/4.jpg" alt="4.jpg" class="img-fluid w-100"
+              /></a>
+            </div>
+          </div>
         </div>
-        <div class="countdown-item">
-            <span id="hours"></span>
-            <p>Hours</p>
+      </div>
+    </section>
+    <section id="venoBox">
+      <div class="container">
+        <div class="veno">
+          <div class="row">
+            <div class="col-lg-4">
+              <a
+                class="image link"
+                data-gall="gallery01"
+                href="images/et.jpg"
+                ><img src="images/et.jpg" class="img-fluid w-100"
+              /></a>
+            </div>
+            <div class="col-lg-4">
+              <div class="videoBox">
+                <a
+                  class="my-video-links"
+                  data-maxwidth="1200px"
+                  data-autoplay="true"
+                  data-vbtype="video"
+                  href="https://youtu.be/q7AQKQ4Nf40?si=IgNoy5RpXfyroVca">
+                  <img
+                    src="images/aaaappp.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  /><i class="fa-brands fa-youtube yourww"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <a
+                class="image link"
+                data-gall="gallery01"
+                href="images/tt.jpg"
+                ><img src="images/tt.jpg" class="img-fluid w-100"
+              /></a>
+            </div>
+          </div>
         </div>
-        <div class="countdown-item">
-            <span id="minutes"></span>
-            <p>Minutes</p>
-        </div>
-        <div class="countdown-item">
-            <span id="seconds"></span>
-            <p>Seconds</p>
-        </div>
-    </div>
-</section>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery-1.12.4.min.js"></script>
-  <script src="js/script.js"></script>
- </body>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
